@@ -2,7 +2,7 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
 
-
+/* nav style start */
 }
 .nav-title{
 font-size:30px ;
@@ -74,12 +74,11 @@ background-repeat:no-repeat;
 background-position:bottom right,left ;
  
 }
-/* baner stop */
 /* main start */
 main{
     max-width: 1200px;
     margin: 0 auto;
-   
+ /* about me  start  */
 .about{
     margin-top: 130px;
     background-color: rgba(255, 235, 205, 0.559);
@@ -90,8 +89,10 @@ main{
 
 }
 .about-title{
-    text-align: center; 
-    margin-bottom:30px ;
+   text-align: center; 
+    margin-bottom:30px ; 
+    font-size: 25px;
+    font-weight: 700;
 }
 .about-discription{
     color:darkgrey;
@@ -112,5 +113,60 @@ main{
     font-size: 18px;
     font-weight: 700;
 
+
+
 }
+/* what i do start */
+.what{
+   
+    margin: 0px auto;
+   
+   
+}
+
+
+.what-do-title{
+    margin-top:130px;
+  
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom:30px ; 
+}
+
+
+
+.what-do-discription{
+    color: darkgray;
+    font-size: 18px;
+    padding:0px 150px ;
+    margin-bottom: 30px;
+    text-align: center;
+    }
+.skile-continer{
+    display: flex;
+    gap: 30px;
+}
+.siles{
+   
+    background-color: rgba(235, 240, 240, 0.926);
+    box-shadow:10px 10px 40px gainsboro ;
+    border-radius: 5px;
+    border: none;
+    padding: 40px;
+   
+}
+.skile-title{
+    font-size:20px ;
+    font-weight: 700;
+    margin-bottom:20px ;
+}
+img{
+    margin-bottom:20px ;
+}
+.skile-discription{
+   font-size: 18px; 
+   color: darkgrey;
+}
+/* Resume style start */
 
