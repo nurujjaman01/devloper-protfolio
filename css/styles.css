@@ -1,79 +1,100 @@
 *{
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-
-/* nav style start */
+    margin: 0;
 }
-.nav-title{
-font-size:30px ;
-font-family: Arial, Helvetica, sans-serif;
-
-font-weight: 800;
-
-
+.header-item{
+    background-color: rgba(233, 233, 229, 0.858);
+    justify-content: space-between;
+    background-image: url(/portfolio-resources-main/images/header_bg.png),url(/portfolio-resources-main/images/developer.png);
+    background-repeat: no-repeat;
+    background-position:bottom right ,left;
+    
+    
 }
-.primary-color{
-    color:red ;
+
+
+nav-title{
+    font-size: 45px;
+    font-weight: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.primary-item{
+    color: brown;
 }
 nav{
     display: flex;
-    align-items:center ;
     justify-content: space-between;
-    margin: 50px 200px;
+    align-items: center;
+   padding: 50px 200px;
+  
+
+}
+.nav-button{
+    height: 55px;
+    width: 150px;
+    background-image: linear-gradient(orange,tomato);
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+
 }
 nav li{
     list-style: none;
-    margin: 20px;
+    margin-right: 30px;
+    
 
 }
 nav ul{
-    font-size: 12px;
-    align-items: center;
     display: flex;
-  
+    align-items: center;
+   
 }
-.nav-button{
-    background-image: linear-gradient(orange  ,tomato);
-height: 35px;
-width: 110px;
-border-radius: 5px;
-padding: 10px ;
-color:aliceblue;
-font-weight: 700;
-font-size: 10px;
-border:none
-
+.baner{
+    display: flex;
+    margin: 0 10px 0px 200px;
+    align-items: center;
+    
 }
-/* baner strat***** */
 .baner-title{
-    color: black;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-.baner-discription{
-    font-size:45px ;
+    font-size: 25px;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
-
-}
-.baner-decoration{
-    color: darkgray;
-    margin-bottom: 30px;
-    font-size: 18px;
 }
 .baner-item{
-    display: flex;
-    margin: 0px 50px 0px 200px;
-    align-items:center ;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
-.header-item{
-background-color: rgba(197, 183, 171, 0.173);
-background-image:url(/portfolio-resources-main/images/header_bg.png),url(/portfolio-resources-main/images/developer.png) ;
-background-repeat:no-repeat;
-background-position:bottom right,left ;
- 
+.baner-discription{
+    font-size: 15px;
+    color: rgb(220, 210, 210);
+    margin-bottom: 30px;
 }
+.bamer-button{
+    height: 55px;
+    width: 180px;
+    padding:10px 40px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 5px;
+    border: none;
+}
+
+
+    
+
+
+
+
+    
+
+
+
+
 /* main start */
 main{
     max-width: 1200px;
@@ -161,9 +182,7 @@ main{
     font-weight: 700;
     margin-bottom:20px ;
 }
-img{
-    margin-bottom:20px ;
-}
+
 .skile-discription{
    font-size: 18px; 
    color: darkgrey;
@@ -224,7 +243,47 @@ h1{
     margin-top: 30px;
     text-align: center;
 }
+/* contact style */
+.contact .section-title{
+    align-items: left;
+   
+}
+.contact{
+    display: flex;
+    margin-top: 130px;
+    background-color: rgba(209, 213, 213, 0.405);
+    gap: 100px;
+    padding: 130px 200px;
+}
+.contact input[type="text"], input[type="email"]  ,textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 12px 25px;
+}
+input{
+    height:40px ;
+ 
+}
 
+.section-title{
+    font-size:20px ;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+  
+.section-dicoration{
+    font-size: 16px;
+    color:rgba(161, 157, 157, 0.903);
+    margin-bottom: 30px;
+}
+a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+    
 
 
 
